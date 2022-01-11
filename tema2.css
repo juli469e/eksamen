@@ -1,0 +1,96 @@
+#text h2 {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+#txt2 h2 {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+
+  color: red;
+}
+
+#overskrift {
+  font-size: 2.5rem;
+  margin: 20px;
+}
+
+#overskrift h1 {
+  align-content: center;
+}
+
+.btn {
+  padding: 20px;
+  font-family: "Bebas Neue";
+  font-size: 1.7rem;
+  position: relative;
+  background-color: blue;
+  margin: 30px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: red;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  #text h2 {
+    display: grid;
+    background-color: white;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+
+  #overskrift {
+    grid-column: 1/3;
+    grid-row: 1/1;
+  }
+
+  #txt2 h2 {
+    background-color: white;
+    grid-column: 1/1;
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+
+  /* WEB */
+  @media (min-width: 600px) {
+    #overskrift {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #text {
+    background-color: rgb(255, 255, 255);
+    grid-column: 2/3;
+    font-size: 0.8rem;
+    padding: 20px;
+    margin: 20px;
+    line-height: 2;
+  }
+
+  #overskrift {
+      grid-column: 1/3;
+    grid-row: 1/1;
+    font-size: 1.5rem;
+  }
+
+  #txt2 {
+    background-color: white;
+    font-size: 0.8rem;
+    padding: 20px;
+    margin: 20px;
+    line-height: 2; */
+  }
+}

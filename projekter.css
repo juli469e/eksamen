@@ -1,0 +1,172 @@
+body {
+  background-image: url(img/tern-red.png);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  animation-name: puls_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.footer {
+  animation: none;
+}
+
+@keyframes puls_kf {
+  0% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a :visited {
+  color: white;
+}
+
+/* KNAP TIL TEMA 2 */
+.knap2 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.knap2 img {
+  width: 100%;
+  height: auto;
+}
+
+.knap2 .btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.3rem;
+  font-family: "Bebas Neue";
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.knap2 a {
+  color: #0800d9;
+}
+
+/* KNAP TIL TEMA 3 */
+.knap3 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.knap3 img {
+  width: 100%;
+  height: auto;
+}
+
+.knap3 .btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.3rem;
+  font-family: "Bebas Neue";
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.knap3 a {
+  color: #fff690;
+}
+
+/* 
+KNAP TIL TEMA 4 */
+#top,
+#bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.knap4 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.knap4 img {
+  width: 100%;
+  height: auto;
+}
+
+.knap4 .btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.3rem;
+  font-family: "Bebas Neue";
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.knap4 :visited {
+  color: #fff690;
+}
+
+.knap4 a {
+  color: #fff690;
+}
+
+/* KNAP TIL TEMA 5 */
+.knap5 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.knap5 img {
+  width: 100%;
+  height: auto;
+}
+
+.knap5 .btn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.3rem;
+  font-family: "Bebas Neue";
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.knap5 a {
+  color: #0800d9;
+}

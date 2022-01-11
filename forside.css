@@ -1,0 +1,26 @@
+body {
+  color: blue;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+#splash {
+  height: 100vh;
+  background-image: linear-gradient(red 2px, transparent 2px),
+    linear-gradient(90deg, red 2px, transparent 2px);
+  background-size: 5vw 5vw;
+  background-position: center center;
+}
+
+body {
+  background-color: white;
+}
+/* @media (min-width: 600px) {
+  img {
+    background-image: url(img/splash_text.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */

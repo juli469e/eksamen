@@ -1,0 +1,17 @@
+body {
+  background-image: url(img/tern_blue.png);
+}
+
+/* Gør billeder responsive så det fungerer på mobile */
+@media (min-width: 600px) {
+  #top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}

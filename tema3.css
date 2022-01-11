@@ -1,0 +1,62 @@
+#text {
+  padding: 20px;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+#txt2 {
+  padding: 20px;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+#txt2 h2 {
+  color: red;
+}
+
+.btn {
+  padding: 20px;
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+  position: relative;
+  background-color: blue;
+}
+
+.btn a {
+  text-decoration: none;
+  color: red;
+}
+
+#knapper a {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* WEB */
+@media (min-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #text {
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  #text h2 {
+    font-size: 1.8rem;
+  }
+
+  #txt2 h2 {
+    font-size: 1.8rem;
+  }
+
+  #knapper {
+    grid-column: 2/3;
+    display: flex;
+    align-content: space-around;
+  }
+}
