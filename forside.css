@@ -18,9 +18,3 @@ img {
 body {
   background-color: white;
 }
-/* @media (min-width: 600px) {
-  img {
-    background-image: url(img/splash_text.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */

@@ -2,6 +2,15 @@ body {
   background-image: url(img/tern_blue.png);
 }
 
+.zoom {
+  transition: transform 2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
 /* Gør billeder responsive så det fungerer på mobile */
 @media (min-width: 600px) {
   #top {

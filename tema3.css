@@ -1,62 +1,106 @@
-#text {
-  padding: 20px;
-  margin: 20px;
+.text,
+.txt2 {
+  padding: 10px;
+  margin: 10px;
+  color: blue;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
-#txt2 {
-  padding: 20px;
-  margin: 20px;
-  line-height: 1.5;
-}
-
-#txt2 h2 {
-  color: red;
-}
-
-.btn {
-  padding: 20px;
-  font-family: "Bebas Neue";
+#overskrift {
   font-size: 2rem;
+  margin: 0px;
+  padding: 16px;
+}
+
+#overskrift h1 {
+  align-content: center;
+  padding: 40px;
+}
+
+.btn,
+.btn1 {
+  padding: 17px;
+  font-family: "Bebas Neue";
+  font-size: 1.7rem;
   position: relative;
   background-color: blue;
+  margin: 10px;
 }
 
-.btn a {
+a.btn,
+.btn1 {
   text-decoration: none;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
-#knapper a {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* WEB */
 @media (min-width: 600px) {
-  main {
+  #overskrift {
+    /* display: flex;
+    align-items: center;
+    flex-direction:column */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
-  #text {
-    background-color: rgb(255, 255, 255);
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-
-  #text h2 {
-    font-size: 1.8rem;
-  }
-
-  #txt2 h2 {
-    font-size: 1.8rem;
-  }
-
-  #knapper {
+  .overskrift {
     grid-column: 2/3;
+    grid-row: 1/2;
     display: flex;
-    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    /* grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    flex-direction: column; */
+  }
+
+  .btn {
+    grid-column: 2/3;
+    grid-row: 2/2;
+  }
+
+  .btn1 {
+    grid-column: 3/4;
+    grid-row: 2/2;
+  }
+
+  #billeder {
+    max-width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plakater,
+  .roots,
+  .skitse {
+    width: 60%;
+  }
+
+  @media (min-width: 600px) {
+    #text {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    .text {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+
+    .txt2 {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+
+    #overskrift h1 {
+      font-size: 2.7rem;
+    }
   }
 }
